@@ -1,0 +1,197 @@
+@keyframes serviços { 
+                from { width:0; height:0; background-color:white;}
+                to { width: 30%; height:28px; background-color:rgb(105, 209, 200);}
+}
+@keyframes img { 
+        0%{	        width:620px;
+                        height:100%;
+                        background-color:rgba(98, 230, 197, 0);
+                        border-radius: 200px;
+                        border:1px solid #ffffff11;
+                        transition: all 0.4s linear; 
+        }
+        100% {           background-color: rgba(192, 236, 243, 0.658);
+                        border-radius:300px;
+                        transition: all 0.4s linear;
+        }
+}   
+
+          /*------------- ANIMAÇÕES ACIMA DA IMAGEM ------------ */
+* { 
+                margin:0;
+                padding:0;
+}
+
+body { 
+                background-color:#ffffff9e
+               
+}
+nav{
+        width:100%;
+        height:60px;
+        background-color:rgb(255, 255, 255);
+        border-bottom: 1px solid #a9f5f8c5;
+        display:block;
+        
+}
+
+#navbar-imagem img  { 
+                width:120px;
+                height:45px;
+                margin-top:8px;
+                float:left;
+                margin-left:6px;
+}
+#nav-icons ol li { 
+                display:inline;
+                float:left;
+                margin-top:18px
+    
+}   
+
+a { 
+                text-decoration: none;
+                color:rgb(255, 255, 255);
+}
+
+.text-menus1{ 
+                color:black;
+                font-family:serif;
+                text-align:right;
+                margin-left:930px;
+                margin-top:40px;
+                padding:7px;
+                font-size:24px;
+                font-weight:bold;
+                color:#2aa7929a;
+                border-radius:30px;
+                border: 1px solid rgba(238, 238, 238, 0);
+                
+                
+                
+
+}
+
+.text-menus2,.text-menus3 { 
+                font-family: serif;
+                padding:7px;
+                font-size:24px;
+                font-weight:bold;
+                color:#2aa7929a;
+                border-radius:30px;
+                border: 1px solid rgba(238, 238, 238, 0);
+                
+}
+
+.text-menus1:hover, .text-menus2:hover, .text-menus3:hover { 
+
+                color:#1d1d1dde;
+                border:1px solid rgba(0, 0, 0, 0);
+                width:100%;
+                height:80px;
+                border-radius:50px;
+                background-color:#4edac29a;
+
+                transition: all 0.5s linear;
+                
+
+}
+
+#conteudo { 
+
+            width:1250px;
+            height:430px;
+            background-color:rgb(255, 255, 255);
+            margin-left:80px;
+            border-radius:50px;
+            
+            
+            
+}
+
+
+
+#conteudo .imagem1 { 
+                    width:620px;
+                    height:100%;
+                    display:inline
+                    
+}
+
+.sub-conteudo1{
+                float:left;
+                width:620px;
+                height:100%;
+                background-color: rgba(192, 236, 243, 0.658);
+                border-radius:300px;
+                border:1px solid #ffffff11;
+                animation-name: img;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+                animation-delay: 3s;
+}
+
+.sub-conteudo2 { 
+
+                float:right
+                
+}
+.visual-texto{
+        float:right;
+        text-align:center;
+        margin-right:40px;
+        margin-top:130px;
+        font-size:32px;
+        color:#35d3fa;
+        font-weight:bold;
+        padding:10px;
+        
+
+}
+.visual-texto:hover { 
+                        color:#2cafcf;
+                        font-weight:bold;
+                        transition: all .5s linear;
+                        cursor:context-menu;
+                        
+}
+
+p { 
+
+        font-size:18px;
+        font-weight: normal;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color:rgb(105, 209, 200);
+        text-align:center;
+        padding:3px;
+        margin-top:3px
+}
+p:hover { 
+        color: rgb(0, 90, 90);
+        transition: all .5s linear;
+        cursor: context-menu;
+        font-size:19px;
+        font-weight:500
+        
+
+}
+
+.serviços-1 { 
+
+                width:30%;
+                height:28px;
+                background-color:rgb(105, 209, 200);
+                border: 1px solid rgb(252, 252, 252);
+                border-radius:200px;
+                color:rgb(105, 209, 200);
+                text-align:center;
+                font-size:21px;
+                padding:4px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                margin-left:170px;
+                animation-name: serviços;
+                animation-duration: 2s;
+                
+}
+
+
